@@ -1,0 +1,84 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Slider styles */
+  .slider {
+    background-color: #f2f2f2;
+    height: 300px;
+    /* Add slider styles here */
+  }
+  
+  /* Registration form styles */
+  .registration-form {
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* .registration-form input[type="text"],
+  .registration-form input[type="email"],
+  .registration-form input[type="password"]
+  .registration-form input[type="textarea"]
+  .registration-form input[type="date"]
+  .registration-form input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  } */
+  
+  .registration-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
